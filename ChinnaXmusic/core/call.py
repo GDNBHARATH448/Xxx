@@ -17,9 +17,9 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from ShrutiMusic import LOGGER, YouTube, app
-from ShrutiMusic.misc import db
-from ShrutiMusic.utils.database import (
+from ChinnaXmusic import LOGGER, YouTube, app
+from ChinnaXmusic.misc import db
+from ChinnaXmusic.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -31,11 +31,11 @@ from ShrutiMusic.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from ShrutiMusic.utils.exceptions import AssistantErr
-from ShrutiMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
-from ShrutiMusic.utils.inline.play import stream_markup
-from ShrutiMusic.utils.stream.autoclear import auto_clean
-from ShrutiMusic.utils.thumbnails import gen_thumb
+from ChinnaXmusic.utils.exceptions import AssistantErr
+from ChinnaXmusic.utils.formatters import check_duration, seconds_to_min, speed_converter
+from ChinnaXmusic.utils.inline.play import stream_markup
+from ChinnaXmusic.utils.stream.autoclear import auto_clean
+from ChinnaXmusic.utils.thumbnails import gen_thumb
 from strings import get_string
 
 autoend = {}
