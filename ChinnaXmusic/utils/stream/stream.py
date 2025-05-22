@@ -5,15 +5,15 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from ShrutiMusic import Carbon, YouTube, app
-from ShrutiMusic.core.call import Aviax
-from ShrutiMusic.misc import db
-from ShrutiMusic.utils.database import add_active_video_chat, is_active_chat
-from ShrutiMusic.utils.exceptions import AssistantErr
-from ShrutiMusic.utils.inline import aq_markup, close_markup, stream_markup
-from ShrutiMusic.utils.pastebin import AviaxBin
-from ShrutiMusic.utils.stream.queue import put_queue, put_queue_index
-from ShrutiMusic.utils.thumbnails import gen_thumb
+from ChinnaXmusic import Carbon, YouTube, app
+from ChinnaXmusic.core.call import Aviax
+from ChinnaXmusic.misc import db
+from ChinnaXmusic.utils.database import add_active_video_chat, is_active_chat
+from ChinnaXmusic.utils.exceptions import AssistantErr
+from ChinnaXmusic.utils.inline import aq_markup, close_markup, stream_markup
+from ChinnaXmusic.utils.pastebin import AviaxBin
+from ChinnaXmusic.utils.stream.queue import put_queue, put_queue_index
+from ChinnaXmusic.utils.thumbnails import gen_thumb
 
 
 async def stream(
