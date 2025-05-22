@@ -8,8 +8,8 @@ from pyrogram.types import (
     Message,
 )
 
-from ShrutiMusic import app
-from ShrutiMusic.utils.database import (
+from ChinnaXmusic import app
+from ChinnaXmusic.utils.database import (
     add_nonadmin_chat,
     get_authuser,
     get_authuser_names,
@@ -25,16 +25,16 @@ from ShrutiMusic.utils.database import (
     skip_off,
     skip_on,
 )
-from ShrutiMusic.utils import bot_sys_stats
-from ShrutiMusic.utils.decorators.admins import ActualAdminCB
-from ShrutiMusic.utils.decorators.language import language, languageCB
-from ShrutiMusic.utils.inline.settings import (
+from ChinnaXmusic.utils import bot_sys_stats
+from ChinnaXmusic.utils.decorators.admins import ActualAdminCB
+from ChinnaXmusic.utils.decorators.language import language, languageCB
+from ChinnaXmusic.utils.inline.settings import (
     auth_users_markup,
     playmode_users_markup,
     setting_markup,
     vote_mode_markup,
 )
-from ShrutiMusic.utils.inline.start import private_panel
+from ChinnaXmusic.utils.inline.start import private_panel
 from config import BANNED_USERS, OWNER_ID
 
 
