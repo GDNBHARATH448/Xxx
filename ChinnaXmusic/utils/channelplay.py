@@ -1,5 +1,5 @@
-from ShrutiMusic import app
-from ShrutiMusic.utils.database import get_cmode
+from ChinnaXmusic import app
+from ChinnaXmusic.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):
