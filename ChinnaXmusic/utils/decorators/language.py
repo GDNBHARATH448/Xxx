@@ -1,5 +1,5 @@
-from ShrutiMusic.misc import SUDOERS
-from ShrutiMusic.utils.database import get_lang, is_maintenance
+from ChinnaXmusic.misc import SUDOERS
+from ChinnaXmusic.utils.database import get_lang, is_maintenance
 from config import SUPPORT_GROUP
 from strings import get_string
 
