@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from pyrogram.enums import ParseMode
-from ShrutiMusic import app
+from ChinnaXmusic import app
 import config
 
 TEXT = f"""
