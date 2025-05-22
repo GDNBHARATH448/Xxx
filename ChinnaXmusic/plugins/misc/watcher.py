@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ShrutiMusic import app
-from ShrutiMusic.core.call import Aviax
+from ChinnaXmusic import app
+from ChinnaXmusic.core.call import Aviax
 
 welcome = 20
 close = 30
