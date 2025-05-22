@@ -3,10 +3,10 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from ShrutiMusic import YouTube, app
-from ShrutiMusic.core.call import Aviax
-from ShrutiMusic.misc import SUDOERS, db
-from ShrutiMusic.utils.database import (
+from ChinnaXmusic import YouTube, app
+from ChinnaXmusic.core.call import Aviax
+from ChinnaXmusic.misc import SUDOERS, db
+from ChinnaXmusic.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -17,11 +17,11 @@ from ShrutiMusic.utils.database import (
     music_on,
     set_loop,
 )
-from ShrutiMusic.utils.decorators.language import languageCB
-from ShrutiMusic.utils.formatters import seconds_to_min
-from ShrutiMusic.utils.inline import close_markup, stream_markup, stream_markup_timer
-from ShrutiMusic.utils.stream.autoclear import auto_clean
-from ShrutiMusic.utils.thumbnails import gen_thumb
+from ChinnaXmusic.utils.decorators.language import languageCB
+from ChinnaXmusic.utils.formatters import seconds_to_min
+from ChinnaXmusic.utils.inline import close_markup, stream_markup, stream_markup_timer
+from ChinnaXmusic.utils.stream.autoclear import auto_clean
+from ChinnaXmusic.utils.thumbnails import gen_thumb
 from config import (
     BANNED_USERS,
     SOUNCLOUD_IMG_URL,
