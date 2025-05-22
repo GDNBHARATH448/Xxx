@@ -9,8 +9,8 @@ from pyrogram.types import InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 import config
-from ShrutiMusic import app
-from ShrutiMusic.core.userbot import assistants
+from ChinnaXmusic import app
+from ChinnaXmusic.core.userbot import assistants
 from ShrutiMusic.misc import SUDOERS, mongodb
 from ShrutiMusic.plugins import ALL_MODULES
 from ShrutiMusic.utils.database import get_served_chats, get_served_users, get_sudoers,is_autoend,is_autoleave
