@@ -11,11 +11,11 @@ from pytgcalls.__version__ import __version__ as pytgver
 import config
 from ChinnaXmusic import app
 from ChinnaXmusic.core.userbot import assistants
-from ShrutiMusic.misc import SUDOERS, mongodb
-from ShrutiMusic.plugins import ALL_MODULES
-from ShrutiMusic.utils.database import get_served_chats, get_served_users, get_sudoers,is_autoend,is_autoleave
-from ShrutiMusic.utils.decorators.language import language, languageCB
-from ShrutiMusic.utils.inline.stats import back_stats_buttons, stats_buttons
+from ChinnaXmusic.misc import SUDOERS, mongodb
+from ChinnaXmusic.plugins import ALL_MODULES
+from ChinnaXmusic.utils.database import get_served_chats, get_served_users, get_sudoers,is_autoend,is_autoleave
+from ChinnaXmusic.utils.decorators.language import language, languageCB
+from ChinnaXmusic.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
 
 
