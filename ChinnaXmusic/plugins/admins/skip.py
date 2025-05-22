@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from ShrutiMusic import YouTube, app
-from ShrutiMusic.core.call import Aviax
-from ShrutiMusic.misc import db
-from ShrutiMusic.utils.database import get_loop
-from ShrutiMusic.utils.decorators import AdminRightsCheck
-from ShrutiMusic.utils.inline import close_markup, stream_markup
-from ShrutiMusic.utils.stream.autoclear import auto_clean
-from ShrutiMusic.utils.thumbnails import gen_thumb
+from ChinnaXmusic import YouTube, app
+from ChinnaXmusic.core.call import Aviax
+from ChinnaXmusic.misc import db
+from ChinnaXmusic.utils.database import get_loop
+from ChinnaXmusic.utils.decorators import AdminRightsCheck
+from ChinnaXmusic.utils.inline import close_markup, stream_markup
+from ChinnaXmusic.utils.stream.autoclear import auto_clean
+from ChinnaXmusic.utils.thumbnails import gen_thumb
 from config import BANNED_USERS
 
 
