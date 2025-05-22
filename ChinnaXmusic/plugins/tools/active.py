@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.types import Message
 from unidecode import unidecode
 
-from ShrutiMusic import app
-from ShrutiMusic.misc import SUDOERS
-from ShrutiMusic.utils.database import (
+from ChinnaXmusic import app
+from ChinnaXmusic.misc import SUDOERS
+from ChinnaXmusic.utils.database import (
     get_active_chats,
     get_active_video_chats,
     remove_active_chat,
