@@ -3,8 +3,8 @@ import asyncio
 from datetime import date
 from typing import Dict, List, Union
 
-from ShrutiMusic import userbot
-from ShrutiMusic.core.mongo import mongodb
+from ChinnaXmusic import userbot
+from ChinnaXmusic.core.mongo import mongodb
 
 authdb = mongodb.adminauth
 authuserdb = mongodb.authuser
