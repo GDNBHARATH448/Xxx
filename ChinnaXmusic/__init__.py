@@ -1,8 +1,8 @@
-from ShrutiMusic.core.bot import Aviax
-from ShrutiMusic.core.dir import dirr
-from ShrutiMusic.core.git import git
-from ShrutiMusic.core.userbot import Userbot
-from ShrutiMusic.misc import dbb, heroku
+from ChinnaXmusic.core.bot import Aviax
+from ChinnaXmusic.core.dir import dirr
+from ChinnaXmusic.core.git import git
+from ChinnaXmusic.core.userbot import Userbot
+from ChinnaXmusic.misc import dbb, heroku
 
 from .logging import LOGGER
 
