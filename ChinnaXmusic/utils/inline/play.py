@@ -1,6 +1,6 @@
 import math
 from pyrogram.types import InlineKeyboardButton
-from ShrutiMusic.utils.formatters import time_to_seconds
+from ChinnaXmusic.utils.formatters import time_to_seconds
 
 # Progress Bar Generator
 def get_progress_bar(played_sec, total_sec):
