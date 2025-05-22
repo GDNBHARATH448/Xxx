@@ -2,8 +2,8 @@ import random
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from config import LOG_GROUP_ID
-from ShrutiMusic import app
-from ShrutiMusic.utils.database import add_served_chat, get_assistant
+from ChinnaXmusic import app
+from ChinnaXmusic.utils.database import add_served_chat, get_assistant
 
 welcome_photo = "https://files.catbox.moe/ajobub.jpg"  # Bot added image
 
