@@ -1,16 +1,16 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ShrutiMusic import app
-from ShrutiMusic.utils import extract_user, int_to_alpha
-from ShrutiMusic.utils.database import (
+from ChinnaXmusic import app
+from ChinnaXmusic.utils import extract_user, int_to_alpha
+from ChinnaXmusic.utils.database import (
     delete_authuser,
     get_authuser,
     get_authuser_names,
     save_authuser,
 )
-from ShrutiMusic.utils.decorators import AdminActual, language
-from ShrutiMusic.utils.inline import close_markup
+from ChinnaXmusic.utils.decorators import AdminActual, language
+from ChinnaXmusic.utils.inline import close_markup
 from config import BANNED_USERS, adminlist
 
 
