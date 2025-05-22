@@ -6,22 +6,22 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from ShrutiMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from ShrutiMusic.core.call import Aviax
-from ShrutiMusic.utils import seconds_to_min, time_to_seconds
-from ShrutiMusic.utils.channelplay import get_channeplayCB
-from ShrutiMusic.utils.decorators.language import languageCB
-from ShrutiMusic.utils.decorators.play import PlayWrapper
-from ShrutiMusic.utils.formatters import formats
-from ShrutiMusic.utils.inline import (
+from ChinnaXmusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from ChinnaXmusic.core.call import Aviax
+from ChinnaXmusic.utils import seconds_to_min, time_to_seconds
+from ChinnaXmusic.utils.channelplay import get_channeplayCB
+from ChinnaXmusic.utils.decorators.language import languageCB
+from ChinnaXmusic.utils.decorators.play import PlayWrapper
+from ChinnaXmusic.utils.formatters import formats
+from ChinnaXmusic.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from ShrutiMusic.utils.logger import play_logs
-from ShrutiMusic.utils.stream.stream import stream
+from ChinnaXmusic.utils.logger import play_logs
+from ChinnaXmusic.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 
