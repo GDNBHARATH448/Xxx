@@ -13,18 +13,18 @@ load_dotenv()
 # 📲 Telegram & API Credentials
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-OWNER_ID = int(os.getenv("OWNER_ID", None))
-OWNER_USERNAME = os.getenv("OWNER_USERNAME", "WTF_WhyMeeh")
+API_ID = int(os.getenv("API_ID", "27639080"))
+API_HASH = os.getenv("API_HASH", "5c10faa5b68227793d5f9084106c6f24")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7789341824:AAFVRNcPZq0oVfmDnVGHhZWlRQ9nHhc2GRM")
+OWNER_ID = int(os.getenv("OWNER_ID", "8187405882"))
+OWNER_USERNAME = os.getenv("OWNER_USERNAME", "aboutchinnalu")
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🛠️ Database & Deployment Configs
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-MONGO_DB_URI = os.getenv("MONGO_DB_URI", None)
-LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", None))
+MONGO_DB_URI = os.getenv("MONGO_DB_URI", "mongodb+srv://VamsixD:VamsixD@vamsi.x7gyybv.mongodb.net/?retryWrites=true&w=majority")
+LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", "-1002679649519"))
 HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = os.getenv("HEROKU_API_KEY")
 
@@ -69,7 +69,7 @@ SPOTIFY_CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET", None)
 # 🧵 Session Strings (Pyrogram V2)
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-STRING1 = os.getenv("STRING_SESSION", None)
+STRING1 = os.getenv("STRING_SESSION", "BQGlvSgAJWi2yfIs0zvrE2bZW4Q3TtYSoZTmcMgUJjdaUB9Rkq65b0JzwXqiBcVzNiQhavgdnNAYZAYAvkgkSQ0bt6udlwdkMraHPJD7NY7yECvBBJ2FFFMoAsKsBZOFjW3GqIwRWslvNSmCi99yxBDUdPXOG6D_35rLwSHhAgiNWJe0sUNkTtYP3iCemwb9I4dv2xAbTU2z3Wj6Y4j7i-ZqjFJhvX0gJtgiM8kR02dVUof_iBdCxoiF9uZJ739XH4QIHI8OVRfLm04EoYi75hVPwQQq8Zwq9tE0YmXPBlvDR80slwxNxiDGH-vN2HQFWlfzMIEowBLKqjmzqceafnfGSfP1HAAAAAHoAeY6AA")
 STRING2 = os.getenv("STRING_SESSION2", None)
 STRING3 = os.getenv("STRING_SESSION3", None)
 STRING4 = os.getenv("STRING_SESSION4", None)
