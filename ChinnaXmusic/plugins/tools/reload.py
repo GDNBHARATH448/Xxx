@@ -5,12 +5,12 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery, Message
 
-from ShrutiMusic import app
-from ShrutiMusic.core.call import Aviax
-from ShrutiMusic.misc import db
-from ShrutiMusic.utils.database import get_assistant, get_authuser_names, get_cmode
-from ShrutiMusic.utils.decorators import ActualAdminCB, AdminActual, language
-from ShrutiMusic.utils.formatters import alpha_to_int, get_readable_time
+from ChinnaXmusic import app
+from ChinnaXmusic.core.call import Aviax
+from ChinnaXmusic.misc import db
+from ChinnaXmusic.utils.database import get_assistant, get_authuser_names, get_cmode
+from ChinnaXmusic.utils.decorators import ActualAdminCB, AdminActual, language
+from ChinnaXmusic.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 
 rel = {}
