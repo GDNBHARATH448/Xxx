@@ -4,10 +4,10 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from ShrutiMusic import app
-from ShrutiMusic.misc import SUDOERS
-from ShrutiMusic.utils import get_readable_time
-from ShrutiMusic.utils.database import (
+from ChinnaXmusic import app
+from ChinnaXmusic.misc import SUDOERS
+from ChinnaXmusic.utils import get_readable_time
+from ChinnaXmusic.utils.database import (
     add_banned_user,
     get_banned_count,
     get_banned_users,
@@ -15,8 +15,8 @@ from ShrutiMusic.utils.database import (
     is_banned_user,
     remove_banned_user,
 )
-from ShrutiMusic.utils.decorators.language import language
-from ShrutiMusic.utils.extraction import extract_user
+from ChinnaXmusic.utils.decorators.language import language
+from ChinnaXmusic.utils.extraction import extract_user
 from config import BANNED_USERS
 
 
