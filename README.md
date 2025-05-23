@@ -2,7 +2,7 @@
 <img src="https://files.catbox.moe/eehxb4.jpg" alt="chinnamusicBot Logo" width="500px">
 </p>
 
-<h1 align="center">🎵 Shruti Music Bot 🎵</h1>
+<h1 align="center">🎵 Chinna Music Bot 🎵</h1>
 
 <p align="center">
   <b>A Powerful Telegram Music Bot to Play Songs in Voice Chats</b>
