@@ -3,7 +3,6 @@ from typing import Union
 from pyrogram import filters, types
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from  import app
 from ChinnaXmusic.utils import help_pannel
 from ChinnaXmusic.utils.database import get_lang
 from ChinnaXmusic.utils.decorators.language import LanguageStart, languageCB
