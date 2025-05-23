@@ -3,11 +3,11 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ShrutiMusic import app
-from ShrutiMusic.core.call import Aviax
-from ShrutiMusic.utils import bot_sys_stats
-from ShrutiMusic.utils.decorators.language import language
-from ShrutiMusic.utils.inline import supp_markup
+from ChinnaXmusic import app
+from ChinnaXmusic.core.call import Aviax
+from ChinnaXmusic.utils import bot_sys_stats
+from ChinnaXmusic.utils.decorators.language import language
+from ChinnaXmusic.utils.inline import supp_markup
 from config import BANNED_USERS, PING_IMG_URL
 
 
