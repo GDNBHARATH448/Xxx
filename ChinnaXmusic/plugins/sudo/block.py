@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ShrutiMusic import app
-from ShrutiMusic.misc import SUDOERS
-from ShrutiMusic.utils.database import add_gban_user, remove_gban_user
-from ShrutiMusic.utils.decorators.language import language
-from ShrutiMusic.utils.extraction import extract_user
+from ChinnaXmusic import app
+from ChinnaXmusic.misc import SUDOERS
+from ChinnaXmusic.utils.database import add_gban_user, remove_gban_user
+from ChinnaXmusic.utils.decorators.language import language
+from ChinnaXmusic.utils.extraction import extract_user
 from config import BANNED_USERS
 
 
