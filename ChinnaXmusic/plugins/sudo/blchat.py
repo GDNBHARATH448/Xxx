@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ShrutiMusic import app
-from ShrutiMusic.misc import SUDOERS
-from ShrutiMusic.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
-from ShrutiMusic.utils.decorators.language import language
+from ChinnaXmusic import app
+from ChinnaXmusic.misc import SUDOERS
+from ChinnaXmusic.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
+from ChinnaXmusic.utils.decorators.language import language
 from config import BANNED_USERS
 
 
