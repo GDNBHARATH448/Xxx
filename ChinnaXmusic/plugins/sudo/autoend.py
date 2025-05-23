@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ShrutiMusic import app
-from ShrutiMusic.misc import SUDOERS
-from ShrutiMusic.utils.database import autoend_off,autoend_on,autoleave_off, autoleave_on,is_autoend,is_autoleave
+from ChinnaXmusic import app
+from ChinnaXmusic.misc import SUDOERS
+from ChinnaXmusic.utils.database import autoend_off,autoend_on,autoleave_off, autoleave_on,is_autoend,is_autoleave
 
 
 @app.on_message(filters.command("autoend") & SUDOERS)
