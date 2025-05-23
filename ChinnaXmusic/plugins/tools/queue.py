@@ -6,12 +6,12 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 
 import config
-from ShrutiMusic import app
-from ShrutiMusic.misc import db
-from ShrutiMusic.utils import AviaxBin, get_channeplayCB, seconds_to_min
-from ShrutiMusic.utils.database import get_cmode, is_active_chat, is_music_playing
-from ShrutiMusic.utils.decorators.language import language, languageCB
-from ShrutiMusic.utils.inline import queue_back_markup, queue_markup
+from ChinnaXmusic import app
+from ChinnaXmusic.misc import db
+from ChinnaXmusic.utils import AviaxBin, get_channeplayCB, seconds_to_min
+from ChinnaXmusic.utils.database import get_cmode, is_active_chat, is_music_playing
+from ChinnaXmusic.utils.decorators.language import language, languageCB
+from ChinnaXmusic.utils.inline import queue_back_markup, queue_markup
 from config import BANNED_USERS
 
 basic = {}
