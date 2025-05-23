@@ -10,15 +10,15 @@ from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
 import config
-from ShrutiMusic import app
-from ShrutiMusic.misc import HAPP, SUDOERS, XCB
-from ShrutiMusic.utils.database import (
+from ChinnaXmusic import app
+from ChinnaXmusic.misc import HAPP, SUDOERS, XCB
+from ChinnaXmusic.utils.database import (
     get_active_chats,
     remove_active_chat,
     remove_active_video_chat,
 )
-from ShrutiMusic.utils.decorators.language import language
-from ShrutiMusic.utils.pastebin import AviaxBin
+from ChinnaXmusic.utils.decorators.language import language
+from ChinnaXmusic.utils.pastebin import AviaxBin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
