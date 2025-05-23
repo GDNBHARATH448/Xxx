@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://files.catbox.moe/eehxb4.jpg" alt="chinnamusicBot Logo" width="500px">
+<img src="https://graph.org/file/d9927c726b7f570d06f90f2f56e41ccd5bba93c.jpg" alt="chinnamusicBot Logo" width="500px">
 </p>
 
 <h1 align="center">🎵 Chinna Music Bot 🎵</h1>
