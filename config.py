@@ -16,7 +16,7 @@ load_dotenv()
 API_ID = int(os.getenv("API_ID", "22952243"))
 API_HASH = os.getenv("API_HASH", "96e93b11c6afd88caa694f0894c3be5c")
 BOT_TOKEN = os.getenv("BOT_TOKEN", "7050046068:AAFxwQAXiEaRqolQhvloHGX8OzYVhhiUZDg")
-OWNER_ID = int(os.getenv("OWNER_ID", "8187405882"))
+OWNER_ID = int(os.getenv("OWNER_ID", "8003863147"))
 OWNER_USERNAME = os.getenv("OWNER_USERNAME", "aboutchinnalu")
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -24,7 +24,7 @@ OWNER_USERNAME = os.getenv("OWNER_USERNAME", "aboutchinnalu")
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 MONGO_DB_URI = os.getenv("MONGO_DB_URI", "mongodb+srv://VamsixD:VamsixD@vamsi.x7gyybv.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", "-1002679649519"))
+LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", "-1002658703336"))
 HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = os.getenv("HEROKU_API_KEY")
 
@@ -69,7 +69,7 @@ SPOTIFY_CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET", None)
 # 🧵 Session Strings (Pyrogram V2)
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-STRING1 = os.getenv("STRING_SESSION", "BQGlvSgAdQwxcnJNsYoeLt-ig2Tq2evzswQ4sxXt_2bJi89yqfTxY9pJmlVdsyCepBFeirmgMuV7IBBYDcFHppRgHTYXoleIP-JHllDoPmfO39Ylyet1lgOhSyvGq4jHcAJqUiTTte1Gq1FCwWRKeooHgxx9netxUFJmiNZcOykmWrUg7QpnM9YDtUo1gWHRJOXz9OCf6hOdE9qOymSvwuiPFwnxoEQvX9QBaEwurL9jSXIXo3icEWSg_i12RAmpPpyiEa8nkZqzu32pqhhC077_-eRvA8lx936Gr84KTnYsrjtJy6ydSQB3KOwhbuQ1EH2cVqE6EnG08K-Bs7DhnHIS4a2TNwAAAAHoAeY6AA")
+STRING1 = os.getenv("STRING_SESSION", "AQFeOTMArHMZcQbahiVTvDcyhBbs6gSm9fKwsKfM9WUWtkf96tmIchWnt1T4S4wdjprqN7JWww_VZjVe5dIO78oVSs4j9EQKlHZ-t0O9mnwWNdyrGeITyixOnuisLbVWL-cg7QwwR5aMCatspVyhtlQ0xeWTaIRoqeOTVwBiwfwV_EyPHKQy2I4FbE2xcNYcTPifaqeAKDLW0vmdcNm1-QoIxDI98GfD0BXFynd8tV6Qv8Znahx3OFhJbM-uN-FGjxS0TmDIcUzhaC1gOlYGOkf64l7YBJBZA-BCkEwnzwixh8Ip2LewLRIe_wzW1Ia0vW_CcjYaGrpVX-ObYYsJ6KflVWqXSAAAAAHYjuErAA")
 STRING2 = os.getenv("STRING_SESSION2", None)
 STRING3 = os.getenv("STRING_SESSION3", None)
 STRING4 = os.getenv("STRING_SESSION4", None)
