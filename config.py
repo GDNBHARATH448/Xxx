@@ -13,18 +13,18 @@ load_dotenv()
 # 📲 Telegram & API Credentials
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-API_ID = int(os.getenv("API_ID", ""))
-API_HASH = os.getenv("API_HASH", "")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "7050046068:AAFxwQAXiEaRqolQhvloHGX8OzYVhhiUZDg")
-OWNER_ID = int(os.getenv("OWNER_ID", "8003863147"))
-OWNER_USERNAME = os.getenv("OWNER_USERNAME", "aboutchinnalu")
+API_ID = int(os.getenv("API_ID", "22952243"))
+API_HASH = os.getenv("API_HASH", "96e93b11c6afd88caa694f0894c3be5c")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7832189891:AAECMrpzy-ZHBOX6CQlB6T-SxEOXLGJjjm8")
+OWNER_ID = int(os.getenv("OWNER_ID", "7594751063"))
+OWNER_USERNAME = os.getenv("OWNER_USERNAME", "iam_chinna")
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🛠️ Database & Deployment Configs
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 MONGO_DB_URI = os.getenv("MONGO_DB_URI", "mongodb+srv://VamsixD:VamsixD@vamsi.x7gyybv.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", "-1002658703336"))
+LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", "-1002877223748")
 HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = os.getenv("HEROKU_API_KEY")
 
