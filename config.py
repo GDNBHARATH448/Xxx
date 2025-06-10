@@ -24,7 +24,7 @@ OWNER_USERNAME = os.getenv("OWNER_USERNAME", "iam_chinna")
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 MONGO_DB_URI = os.getenv("MONGO_DB_URI", "mongodb+srv://VamsixD:VamsixD@vamsi.x7gyybv.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", "-1002877223748")
+LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", "-1002877223748"
 HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = os.getenv("HEROKU_API_KEY")
 
