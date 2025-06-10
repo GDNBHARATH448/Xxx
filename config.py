@@ -69,7 +69,7 @@ SPOTIFY_CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET", None)
 # 🧵 Session Strings (Pyrogram V2)
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-STRING1 = os.getenv("STRING_SESSION", "AQFeOTMArHMZcQbahiVTvDcyhBbs6gSm9fKwsKfM9WUWtkf96tmIchWnt1T4S4wdjprqN7JWww_VZjVe5dIO78oVSs4j9EQKlHZ-t0O9mnwWNdyrGeITyixOnuisLbVWL-cg7QwwR5aMCatspVyhtlQ0xeWTaIRoqeOTVwBiwfwV_EyPHKQy2I4FbE2xcNYcTPifaqeAKDLW0vmdcNm1-QoIxDI98GfD0BXFynd8tV6Qv8Znahx3OFhJbM-uN-FGjxS0TmDIcUzhaC1gOlYGOkf64l7YBJBZA-BCkEwnzwixh8Ip2LewLRIe_wzW1Ia0vW_CcjYaGrpVX-ObYYsJ6KflVWqXSAAAAAHYjuErAA")
+STRING1 = os.getenv("STRING_SESSION", "AQFeOTMARkDbl_Gx8Kx5Nnqep7tiPTOV9foFfQ4UWUA9AH1GsmVFyN62qBwsfCWov1QYTW6EyyFlK1l-CVJTapxCkuC2o1ZUl9j9lZVFRvM8YGqA6ZvMr8Uu9iHiy-aBAgbtCCjiwKQIfBmAlIRYYh4-vjkPQEScD_Mvr2vR-_kOHP0pYASwSRYUHwvXUDm_1d-cNduSCWXgFD-0xNIar3qziMqRUDGGm2_ZPAE9vT0splzxRWwevTuF_takygno3CrGaE-4gK47lVqH8GfpZ8wowMX2h1kYdstgnacRryJesctSnvAwQH_upeYe2LSV8MNNtlR8fvmsdLzLxP_TYslTwx220QAAAAHYjuErAA")
 STRING2 = os.getenv("STRING_SESSION2", None)
 STRING3 = os.getenv("STRING_SESSION3", None)
 STRING4 = os.getenv("STRING_SESSION4", None)
