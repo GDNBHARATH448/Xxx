@@ -18,6 +18,7 @@ pykeyboard
 kurigram==2.1.35
 python-dotenv
 pyyaml
+git
 requests
 speedtest-cli
 spotipy
