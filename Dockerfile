@@ -2,6 +2,7 @@ FROM nikolaik/python-nodejs:python3.10-nodejs19
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends ffmpeg \
+    && node -v && npm -v \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
